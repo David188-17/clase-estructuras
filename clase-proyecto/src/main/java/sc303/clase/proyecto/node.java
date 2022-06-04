@@ -1,34 +1,31 @@
 
 package sc303.clase.proyecto;
 
+// la T es para poder desde el main elegir el tipo de variable que vamos a utilizar 
+// una variable tipo T puede ser cualquiera que escogamos
+public class node<T> {
 
-public class node {
-    private int value;
-private node next;
+    private T value;
+    private node<T> next;
 
-
-
-    public node() {
-        this.value = 0;
-        this.next = null;
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public void setValue(int value) {
+    public node(T value) {
         this.value = value;
     }
 
-    public node getNext() {
+    public T getValue() {
+        return value;
+    }
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public node<T> getNext() {
         return next;
     }
 
-    public void setNext(node next) {
+    public void setNext(node<T> next) {//este metodo es el que envia el nuevo valor
         this.next = next;
     }
-
-
 
 }

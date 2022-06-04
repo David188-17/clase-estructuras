@@ -4,18 +4,23 @@
  */
 package sc303.clase.proyecto;
 
-
 public class Main {
 
-    
     public static void main(String[] args) {
-         
-  int arr []= {12,34,64,2,3};        
+
+        //int arr []= {12,34,64,2,3};        
 //-----------------------Recursividad--------------------
-    System.out.println(recursion.factorial(3));
-     System.out.println(recursion.encontrarMax(arr,0,0));
-}
+        // System.out.println(recursion.factorial(3));
+        //  System.out.println(recursion.encontrarMax(arr,0,0));
+        stack<Integer> Pila = new stack<Integer>();
+        Pila.push(1);
+        Pila.push(2);
+        Pila.push(3);
+        System.out.println(Pila.pop());
+        System.out.println(Pila.pop());
+        System.out.println(Pila.pop());
+        System.out.println(Pila.pop());
 
     }
-    
 
+}
