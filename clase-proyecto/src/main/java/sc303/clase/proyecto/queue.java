@@ -25,5 +25,18 @@ public void enqueue(T value){
         tail=newNode;
     }
 }
+public node<T> dequeue(){
+      if(head==null){
+          System.out.println("la cola ya se encuentra vacia");
+    return null;
+          
+      }else{
+            node<T> firstInQueue = head;//lugar para guardar el head
+          head=head.getNext();//el head es el ultimo queremos el penultimo
+          return firstInQueue;
+      }
+}
+}
+
+
             
-            }
