@@ -22,13 +22,31 @@ public class Main {
        // System.out.println(Pila.pop());
 
        
-       //------------Colas-----------------
+//       //------------Colas-----------------
+//    
+//    queue<Integer> Cola = new queue<Integer>();
+// Cola.enqueue(1);
+//Cola.enqueue(2);
+//Cola.enqueue(4);
+//System.out.println(Cola.dequeue());
+//System.out.println(Cola.dequeue().getValue());
+//}
+//}
+
+
+       //------------listas-----------------
     
-    queue<Integer> Cola = new queue<Integer>();
- Cola.enqueue(1);
-Cola.enqueue(2);
-Cola.enqueue(4);
-System.out.println(Cola.dequeue());
-System.out.println(Cola.dequeue().getValue());
+    lista  milista =new lista();
+ milista.insertar(new persona(10, "Juan"));
+ milista.insertar(new persona(5, "Maria"));
+ milista.insertar(new persona(6, "Pedro"));
+ milista.insertar(new persona(4, "Luis"));
+ milista.insertar(new persona(2, "Sebas"));
+ 
+ milista.imprimirlista();
+ 
+ 
+ 
+ 
 }
 }
