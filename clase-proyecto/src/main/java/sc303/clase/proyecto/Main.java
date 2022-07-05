@@ -36,17 +36,22 @@ public class Main {
 
        //------------listas-----------------
     
-    lista  milista =new lista();
- milista.insertar(new persona(10, "Juan"));
- milista.insertar(new persona(5, "Maria"));
- milista.insertar(new persona(6, "Pedro"));
- milista.insertar(new persona(4, "Luis"));
- milista.insertar(new persona(2, "Sebas"));
+//    lista  milista =new lista();
+// milista.insertar(new persona(10, "Juan"));
+// milista.insertar(new persona(5, "Maria"));
+// milista.insertar(new persona(6, "Pedro"));
+// milista.insertar(new persona(4, "Luis"));
+// milista.insertar(new persona(2, "Sebas"));
+// 
+// milista.imprimirlista();
+// 
  
- milista.imprimirlista();
  
- 
- 
+
+
+
+
  
 }
+    
 }
