@@ -1,8 +1,11 @@
+
 package sc303.clase.proyecto;
 
-public class ListaCircularSimple {
 
-    private node<persona> head;
+public class listadoblecircular {
+  
+    
+     private node<persona> head;
     private node<persona> tail;
 
     public void insertar(persona value) {
@@ -13,6 +16,23 @@ public class ListaCircularSimple {
             tail = head;
 
             tail.setNext(head);
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
         } else if (head.getValue().getId() > value.getId()) {
             node<persona> aux = new node<persona>(value);
@@ -35,49 +55,31 @@ public class ListaCircularSimple {
             aux.setNext(Temp);
         }
     }
-  
-    public void modificar(persona Persona) {
-        node<persona> aux = head;
-
-        if (head != null) {
-
-            while (aux != null && aux.getValue().getId() < Persona.getId()) {
-                aux = aux.getNext();
-
-            }
-            if (aux != null && aux.getValue().getId() == Persona.getId()) {
-                aux.getValue().setNombre(Persona.getNombre());
-
-            }
-
-        }
-
-    }
-
-    public void imprimirlista() {
-        node<persona> aux = head;
-        while (aux != tail) {
-            System.out.println(aux.getValue().toString());
-            aux = aux.getNext();
-        }
-        System.out.println(tail);
-
-    }
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
-  
-  
-  
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
 

@@ -33,7 +33,6 @@ public class Main {
 //}
 //}
 
-
        //------------listas-----------------
     
 //    lista  milista =new lista();
@@ -45,6 +44,16 @@ public class Main {
 // 
 // milista.imprimirlista();
 // 
+
+
+     ListaCircularSimple  miListaCircularSimpleCircularSimple =new ListaCircularSimple();
+ miListaCircularSimpleCircularSimple.insertar(new persona(10, "Juan"));
+ miListaCircularSimpleCircularSimple.insertar(new persona(5, "Maria"));
+ miListaCircularSimpleCircularSimple.insertar(new persona(6, "Pedro"));
+ miListaCircularSimpleCircularSimple.insertar(new persona(4, "Luis"));
+ miListaCircularSimpleCircularSimple.insertar(new persona(2, "Sebas"));
+ 
+ miListaCircularSimpleCircularSimple.imprimirlista();
  
  
 

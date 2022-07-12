@@ -5,8 +5,10 @@ package sc303.clase.proyecto;
 // una variable tipo T puede ser cualquiera que escogamos
 public class node<T> {
 
+
     private T value;
     private node<T> next;
+private node<T> back;
 
     public node(T value) {
         this.value = value;
@@ -24,8 +26,18 @@ public class node<T> {
         return next;
     }
 
-    public void setNext(node<T> next) {//este metodo es el que envia el nuevo valor
+    public void setNext(node<T> next) {
         this.next = next;
     }
 
+    public node<T> getBack() {
+        return back;
+    }
+
+    public void setBack(node<T> back) {
+        this.back = back;
+    }
+
+
+    
 }
