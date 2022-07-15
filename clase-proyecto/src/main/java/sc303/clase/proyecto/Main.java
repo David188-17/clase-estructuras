@@ -46,21 +46,29 @@ public class Main {
 // 
 
 
-     ListaCircularSimple  miListaCircularSimpleCircularSimple =new ListaCircularSimple();
- miListaCircularSimpleCircularSimple.insertar(new persona(10, "Juan"));
- miListaCircularSimpleCircularSimple.insertar(new persona(5, "Maria"));
- miListaCircularSimpleCircularSimple.insertar(new persona(6, "Pedro"));
- miListaCircularSimpleCircularSimple.insertar(new persona(4, "Luis"));
- miListaCircularSimpleCircularSimple.insertar(new persona(2, "Sebas"));
- 
- miListaCircularSimpleCircularSimple.imprimirlista();
- 
- 
+//     ListaCircularSimple  miListaCircularSimpleCircularSimple =new ListaCircularSimple();
+// miListaCircularSimpleCircularSimple.insertar(new persona(10, "Juan"));
+// miListaCircularSimpleCircularSimple.insertar(new persona(5, "Maria"));
+// miListaCircularSimpleCircularSimple.insertar(new persona(6, "Pedro"));
+// miListaCircularSimpleCircularSimple.insertar(new persona(4, "Luis"));
+// miListaCircularSimpleCircularSimple.insertar(new persona(2, "Sebas"));
+// 
+// miListaCircularSimpleCircularSimple.imprimirlista();
+// 
+// 
 
 
 
 
  
-}
+
+    listadoblecircular lista3 = new listadoblecircular();
+    lista3.insertar(new persona(25,"Luis"));
+            lista3.insertar(new persona(35,"Hernan"));
+            lista3.insertar(new persona(45,"Adolfo"));
+                    lista3.insertar(new persona(55,"Justin"));
+    lista3.imprimirlista();
     
+    
+}
 }
