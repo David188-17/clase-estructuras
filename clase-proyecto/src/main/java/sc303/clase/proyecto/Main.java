@@ -61,14 +61,36 @@ public class Main {
 
 
  
+//
+//    listadoblecircular lista3 = new listadoblecircular();
+//    lista3.insertar(new persona(25,"Luis"));
+//            lista3.insertar(new persona(35,"Hernan"));
+//            lista3.insertar(new persona(45,"Adolfo"));
+//                    lista3.insertar(new persona(55,"Justin"));
+//    lista3.imprimirlista();
+//    
+//    
 
-    listadoblecircular lista3 = new listadoblecircular();
-    lista3.insertar(new persona(25,"Luis"));
-            lista3.insertar(new persona(35,"Hernan"));
-            lista3.insertar(new persona(45,"Adolfo"));
-                    lista3.insertar(new persona(55,"Justin"));
-    lista3.imprimirlista();
+    
+    arbol_binario Arbol = new arbol_binario();
+    
+    Arbol.inserta(50);
+    Arbol.inserta(20);
+    Arbol.inserta(80);
+    Arbol.inserta(15);
+    Arbol.inserta(30);
+    Arbol.inserta(60);
+    Arbol.inserta(40);
+    Arbol.inserta(90);
+    Arbol.inserta(75);
+    Arbol.inserta(33);
+    Arbol.inserta(82);
+        Arbol.inOrden();
     
     
-}
+    
+    
+    
+    
+    }
 }
